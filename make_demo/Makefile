@@ -14,6 +14,9 @@ all:target hello clean
 hello:hello.c
 	$(CXX) $^ -o $@
 
+udc_print:udc_print.cc
+	$(CXX) $^ -o $@
+
 first:
 	@echo "first"
 
